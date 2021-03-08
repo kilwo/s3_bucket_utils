@@ -10,10 +10,15 @@ The tool will load all buckets that can be accessed by the credentials supplied.
 
 ## Commands
 ? / help - Shows the available commands.
+
 d / delete - Delete the specific bucket. Only valid for empty buckets.
+
 e / empty - Delete all the objects in the bucket. Only valid if the bucket has objects.
+
 l / list - Displays a list of all the objects in the specified bucket. Only valid if the bucket has objects.
+
 r / refresh - Reloads the list of buckets.
+
 q / quit - Duh!
 
 Commands can be entered as either the full command name, or the first letter, followed by the bucket id. If you enter the full command name, you must add a space after the command. If you use the first letter, the space is optional.
@@ -21,7 +26,9 @@ Commands can be entered as either the full command name, or the first letter, fo
 Eg:
 
 `list 1`
+
 `e 1`
+
 `d1`
 
 
