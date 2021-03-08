@@ -2,7 +2,7 @@
 Quick utility to help manage AWS S3 buckets
 
 ## Basic usage
-Enter ./bucket_util to start.
+Enter `./bucket_util` to start.
 
 If there are AWS Key and Secret in the current environment (ie. AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY are set) the tool will use these. If they are not set, the tool will prompt for a profile name that must be defined in the AWS command line tools. 
 
